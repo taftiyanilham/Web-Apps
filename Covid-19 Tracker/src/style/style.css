@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fdfdfd;
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+}
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 0.5rem;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    background-color: #3c72c9;
+    padding: 10px;
+}
+li {
+    
+    margin-right: 1rem;
+}
+h1 {
+    color: #e74c3c;
+    margin-bottom: 0.5rem;
+}
+
+#CovidBox {
+    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem 0;
+    background-color: rgb(192, 58, 43);
+    overflow: scroll;
+}
+
+#daftar{
+    display: block;
+    border: 1px solid rgb(9, 51, 51);
+}
+.negara {
+    
+    font-size: larger;
+}
+
+.kematian{
+    background-color: red;
+    margin: 0;
+    border: 1px solid black;
+}
+.sembuh{
+    background-color: seagreen;
+    margin: 0;
+    border: 1px solid black;
+}
+.penderita{
+    background-color: tan;
+    margin: 0;
+    border: 1px solid black;
+}
+
+
+
